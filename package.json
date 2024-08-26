@@ -1,0 +1,15 @@
+{
+  "name": "lezer-vitest-repro-1",
+  "description": "reproduction of import error importing *.grammar.terms via vitest",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@lezer/generator": "1.7.1",
+    "vitest": "2.0.5"
+  },
+  "volta": {
+    "node": "18.18.2",
+    "yarn": "1.22.19"
+  }
+}
